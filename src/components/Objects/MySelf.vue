@@ -44,6 +44,10 @@
           <td class="left">フレームワーク</td>
           <td>Ruby on Rails 6</td>
         </tr>
+        <tr>
+          <td class="left">ツール</td>
+          <td>Docker / docker-compose</td>
+        </tr>
       </tbody>
     </v-table>
   </div>
