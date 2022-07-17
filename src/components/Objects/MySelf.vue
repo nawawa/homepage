@@ -3,6 +3,7 @@
 
 <template>
   <div>
+    <PartsPortrait />
     <h1><ruby>名和亮雅<rt>Ryoga Nawa</rt></ruby></h1>
 
     <h3>基本情報</h3>
