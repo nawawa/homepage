@@ -23,6 +23,16 @@ export default defineNuxtConfig({
     transpile: ["vuetify"]
   },
 
+  buildModules: [
+    // @nuxtjs/google-fonts がNuxt3に未対応なようなので、イシューからコピったソースで使えるようにした
+    // https://github.com/nuxt-community/google-fonts-module/issues/67#issuecomment-978852151
+    ["./modules/fonts/index.ts", {
+      families: {
+        Montserrat: [400],
+      },
+    }]
+  ],
+
   vite: {
       define: {
           "process.env.DEBUG": false
