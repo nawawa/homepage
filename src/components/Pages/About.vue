@@ -3,6 +3,7 @@
 
 <template>
   <div>
+    <PartsHeading>ABOUT</PartsHeading>
     <ObjectsMySelf />
   </div>
 </template>
