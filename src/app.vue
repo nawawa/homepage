@@ -2,7 +2,6 @@
   <v-app>
     <v-app-bar 
       app
-      tile 
       flat
     >
     
