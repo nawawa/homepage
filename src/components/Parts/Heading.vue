@@ -11,6 +11,10 @@
 
 <style lang="scss" scoped>
 
+  div {
+    display:table;
+  }
+
   h1 {
     font-size: 36px;
     font-family: 'Montserrat', sans-serif;
@@ -19,7 +23,7 @@
   }
 
   hr {
-    width: 140px;
+    width: 70%;
   }
 
 </style>
