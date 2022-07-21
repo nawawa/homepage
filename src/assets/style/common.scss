@@ -2,8 +2,8 @@
 共通スタイル
 */
 
-body {
-  color: var(--v-font-base);
+h1, h2, h3 p, ruby, rt, td {
+  color: rgb(var(--v-theme-font)) !important;
 }
 
 p {
