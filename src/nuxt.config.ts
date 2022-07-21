@@ -16,7 +16,8 @@ export default defineNuxtConfig({
   },
 
   css: [
-    "vuetify/lib/styles/main.sass"
+    "vuetify/lib/styles/main.sass",
+    '@/assets/style/common.scss', 
   ],
 
   build: {
@@ -34,8 +35,13 @@ export default defineNuxtConfig({
   ],
 
   vite: {
-      define: {
-          "process.env.DEBUG": false
+    define: {
+      'process.env.DEBUG': false
+    },
+    server: {
+      watch: {
+        usePolling: true
       }
-  },
+    }
+  }
 })
