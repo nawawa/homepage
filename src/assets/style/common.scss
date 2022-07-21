@@ -1,0 +1,18 @@
+/*
+共通スタイル
+*/
+
+h1, h2, h3 p, ruby, rt, td {
+  color: rgb(var(--v-theme-font)) !important;
+}
+
+p {
+  letter-spacing: 0.03em !important;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+  }
+}
